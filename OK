@@ -58,12 +58,9 @@ def modifier():
 
 
 def supprimer():
-    codeSelectionner = table.item(table.selection())['values'][0]
-    con = sqlite3.connect("sbitar")
-    cuser = con.cursor()
-    delete  =cuser.execute("delete from kliyan where code = {}".format(codeSelectionner))
-    con.commit()
-    table.delete(table.selection())
+    selected_item = table.selection()
+    if selected_item:
+        table.delete(selected_item)
 
 
 
