@@ -71,11 +71,11 @@ root.geometry("1300x700")
 
 
 #Ajouter le titre
-lbltitre = Label(root,bd = 20, relief = RIDGE, text = "GESTION DES PATIENTS CHEZ MOi", font = ("Arial", 30), bg = "darkblue", fg="white")
+lbltitre = Label(root,bd = 20, relief = RIDGE, text = "GESTION DES PATIENTS CHEZ MOi", font = ("Arial", 30), bg = "orange", fg="black")
 lbltitre.place(x = 0, y = 0, width = 1365)
 
 #Liste des patients
-lblListePatient = Label(root, text = "LISTES DES PATIENTS ", font = ("Arial", 16), bg = "darkblue", fg="white")
+lblListePatient = Label(root, text = "LISTES DES PATIENTS ", font = ("Arial", 16), bg = "orange", fg="black")
 lblListePatient.place(x=600,y=100,width=760)
 
 
@@ -124,15 +124,15 @@ entrerremarque.place(x=200,y=400,width=300,height=30)
 
 
 #Enregistrer
-btnenregistrer = Button(root, text = "Enregistrer", font = ("Arial", 16),bg = "darkblue", fg = "yellow", command = ajouter)
+btnenregistrer = Button(root, text = "Enregistrer", font = ("Arial", 16),bg = "orange", fg = "black", command = ajouter)
 btnenregistrer.place(x=30, y= 450, width=200)
 
 #modifier
-btnmodofier = Button(root, text = "Modifier", font = ("Arial", 16),bg = "darkblue", fg = "yellow", command = modifier)
+btnmodofier = Button(root, text = "Modifier", font = ("Arial", 16),bg = "orange", fg = "black", command = modifier)
 btnmodofier.place(x=270, y= 450, width=200)
 
 #Supprimer
-btnSupprimer = Button(root, text = "Supprimer", font = ("Arial", 16),bg = "darkblue", fg = "yellow", command = supprimer)
+btnSupprimer = Button(root, text = "Supprimer", font = ("Arial", 16),bg = "orange", fg = "black", command = supprimer)
 btnSupprimer.place(x=150, y= 500, width=200)
 
 
