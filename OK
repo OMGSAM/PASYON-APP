@@ -66,12 +66,12 @@ def supprimer():
 
 #titre general
 root = Tk()
-root.title("Gestion des patient ")
+root.title("Mini Projet ")
 root.geometry("1300x700")
 
 
 #Ajouter le titre
-lbltitre = Label(root,bd = 20, relief = RIDGE, text = "GESTION DES PATIENTS CHEZ MOi", font = ("Arial", 30), bg = "orange", fg="black")
+lbltitre = Label(root,bd = 20, relief = RIDGE, text = "MY HOSPITAL", font = ("Arial", 30), bg = "orange", fg="black")
 lbltitre.place(x = 0, y = 0, width = 1365)
 
 #Liste des patients
